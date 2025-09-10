@@ -14,5 +14,5 @@ Technical Achievements
 
 Design/Evaluation Achievements
 ===
-* I tested my user inferface with a student Tien Nyugen tnyugen@wpi.edu. I tasked him to create a task and complete it. Though he liked the simplicity of the design and it was very easy to use for him, he still had some valid suggestions. He recommended my inputs be placeholders as he had had to remove the text entered before creating a new task. The critiqued theat striked me the most was the comments on the buttons saying that I should change "Delete task" to "delete" and "finish task" to "done" to improve the clarity of the design. I didn't really think about that when implementing them, I'll likely change them when the projects finished.
+* I tested my user inferface with a student Nyugen. I tasked him to create a task and complete it. Though he liked the simplicity of the design and it was very easy to use for him, he still had some valid suggestions. He recommended my inputs be placeholders as he had had to remove the text entered before creating a new task. The critiqued theat striked me the most was the comments on the buttons saying that I should change "Delete task" to "delete" and "finish task" to "done" to improve the clarity of the design. I didn't really think about that when implementing them, I'll likely change them when the projects finished.
 
