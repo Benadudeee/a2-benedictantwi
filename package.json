@@ -1,8 +1,8 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
+  "name": "Simple Planner Application (SPA)",
+  "version": "1.0",
+  "description": "A single paged application that's a simple planner app",
+  "author": "Benedict Antwi",
   "scripts": {
     "start": "node server.improved.js"
   },
