@@ -1,4 +1,7 @@
 Simple Planner SPA
+
+Project link: https://a2-benedictantwi.onrender.com/
+
 ===
 This is a small scale single page app for users to plan their activities. When they enter a entry, it adds the task and a derrived value for the days they have left to complete the task.
 
