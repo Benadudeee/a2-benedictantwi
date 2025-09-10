@@ -10,9 +10,43 @@
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
   </head>
   <body>
-    <form>
-      <input type="text" id="yourname" value="your name here">
-      <button>submit</button>
+    <header id="header" class="site-header">
+      <div class="site-head--content">
+        <h1 class="site--title">Simple planner application</h1>
+        <p class="site--description">For assignment A2, I made a basic planner like application, when you enter all items in the form, the information about the taks is shown with a derrived value representing the days left to complete it</p>
+      </div>
+    </header>
+    <main>
+
+    <h3>Add Task</h3>
+    <form class="entryform">
+      <div>
+        <label for="task_name">Task Name</label>
+        <input class="input name" type="text" id="yourname" value="Task Name">
+      </div>
+
+      <div>
+        <label for="task_name">Description (optional)</label>
+        <input class="input description" type="text" id="yourname" value="Enter a description (Or not)">
+      </div>
+
+      <div>
+        <label for="task_name">Due Date</label>
+        <input class="input date" type="date" id="yourname" value="Enter a Date">
+      </div>
+
+      <div>
+        <label for="task_name">Status</label>
+        <input class="input status" type="status" id="yourname" value="Working">
+      </div>
+
+
+      <button class="form-add-btn">Create Task</button>
     </form>
+
+      <section class="cardlist">
+        
+      </section>
+    </main>
   </body>
 </html>

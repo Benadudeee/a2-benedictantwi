@@ -1,4 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --app-width: 896px;
+  --primary-clr: #e6e5e5;
+  --accent-clr: #0f3293;
+
+  --text-clr: #191919;
+}
+
+* {
+  box-sizing:border-box;
+}
+
 body {
-  background:black;
-  color:white;
+  background:var(--primary-clr);
+  color:var(--text-clr);
+
+  max-width: var(--app-width);
+  margin-inline: auto;
+
+  font-family: 'Roboto', sans-serif;
+  padding: 1em;
+}
+
+h1, h3{
+  font-weight: 900;
+  font-style: italic;
+}
+
+button{
+  background:var(--accent-clr);
+  color: var(--primary-clr);
+
+  border:none;
+  padding: .5em 1em;
+  font-size: 1.125rem;
+  border-radius: .25em;
+
+  cursor: pointer;
+}
+
+input{
+  padding: 1em;
+}
+
+a{
+  color: var(--text-clr);
+}
+
+a:visited{
+  color: var(--text-clr);
+}
+
+.site-header{
+  margin-bottom: 3em;
+}
+
+#header{
+  
+}
+
+.site-head--content{
+  max-width: 624px;
+}
+
+.site--title{
+  margin-bottom: .5em;
+  font-size: 3rem;
+}
+
+.site--description{
+  font-size: 1.125rem;
+}
+
+.entryform{
+  display:flex;
+  margin-bottom: 3em;
+  align-items:flex-end;
+}
+
+.entryform > div, .entryform > button{
+  width: 100%;
+  position:relative;
+}
+
+.entryform > button{
+  height: 48px;
+  border-radius: 0;
+}
+
+.cardlist{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.card--item.complete{
+    border: 2px solid yellow;
+    box-shadow: 0px 0px 25px rgb(208, 254, 1);
+
+}
+
+.card--item{
+  background: white;
+  padding: 1.5em;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgb(185, 183, 183);
+  border: 2px solid #d7d2d2;
+}
+
+.button.delete{
+  background-color: #b71313;
+}
+
+.button.finish{
+  background-color: #086208;
 }
